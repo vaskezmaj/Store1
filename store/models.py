@@ -35,7 +35,7 @@ class Customer(models.Model):
 
     ]
 
-    given_name = models.CharField(max_length=255)
+    given_name1 = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     email = models.EmailField(unique=True)
     phone = models.CharField(max_length=255)
